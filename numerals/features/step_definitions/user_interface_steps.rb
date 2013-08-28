@@ -19,7 +19,7 @@ Then /^I see "([^\"]*)" as a result$/ do |word|
   find(".result").should have_content(word)
 end
 
-Then /^I do not see any error just the content of the main page$/ do
+Then /^I do not see any errors just the content of the main page$/ do
   find(".result").should have_content("")
 end
 
